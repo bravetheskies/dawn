@@ -172,8 +172,8 @@
         "title": "量による価格",
         "note": "量による価格が利用可能",
         "minimum": "{{ quantity }}個以上",
-        "price_at_each": "{{ price }}/ユニットで",
-        "price_range": "{{ minimum }}～{{ maximum }}"
+        "price_range": "{{ minimum }}～{{ maximum }}",
+        "price_at_each_html": "{{ price }}/ユニットで"
       },
       "taxes_included": "税込。",
       "duties_included": "関税込。",
@@ -442,7 +442,7 @@
       "order_number_link": "注文番号{{ number }}",
       "date": "日付",
       "payment_status": "支払い状況",
-      "fulfillment_status": "発送状況",
+      "fulfillment_status": "フルフィルメント状況",
       "total": "合計",
       "none": "注文はまだありません。"
     },
@@ -474,7 +474,7 @@
       "billing_address": "請求先住所",
       "payment_status": "決済状況",
       "shipping_address": "配送先住所",
-      "fulfillment_status": "発送状況",
+      "fulfillment_status": "フルフィルメント状況",
       "discount": "ディスカウント",
       "shipping": "配送",
       "tax": "税",

@@ -171,8 +171,8 @@
         "title": "การกำหนดราคาตามปริมาณ",
         "note": "การกำหนดราคาตามปริมาณพร้อมใช้งาน",
         "minimum": "{{ quantity }}+",
-        "price_at_each": "ที่ {{ price }}/หน่วย",
-        "price_range": "{{ minimum }} - {{ maximum }}"
+        "price_range": "{{ minimum }} - {{ maximum }}",
+        "price_at_each_html": "ราคา {{ price }}/หน่วย"
       },
       "product_variants": "ตัวเลือกสินค้า",
       "taxes_included": "รวมภาษีแล้ว",
@@ -474,7 +474,7 @@
       "billing_address": "ที่อยู่สำหรับเรียกเก็บเงิน",
       "payment_status": "สถานะการชำระเงิน",
       "shipping_address": "ที่อยู่ที่จัดส่ง",
-      "fulfillment_status": "สถานะการจัดการ",
+      "fulfillment_status": "สถานะการจัดการคำสั่งซื้อ",
       "discount": "ส่วนลด",
       "shipping": "การจัดส่ง",
       "tax": "ภาษี",
